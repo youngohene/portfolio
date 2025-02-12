@@ -1,0 +1,62 @@
+.layout{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+.sidebar{
+    width: 25%;
+    overflow-y: scroll;
+}
+.avatar{
+    height: 200px;
+    width: 200px;
+    background-image: url(../images/sidebar.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+
+    
+}
+nav{
+    height: ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    line-height: 1.8;
+
+}
+
+.main{
+    width: 75%;
+}
+.hero{
+    height: 100vh;
+    background-image: url(../images/hero-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero div{
+    height: 30%;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.sidebar-name{
+    text-align: center;
+    
+}
